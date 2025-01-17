@@ -115,6 +115,9 @@ export class AppModule {}
 
 npm install -g angular-cli-ghpages
 
+## After every commit run the below command:
+
+
 ng build --output-path=docs --base-href="/story/"
 
 ngh --dir=docs/browser
