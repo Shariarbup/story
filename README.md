@@ -118,3 +118,7 @@ npm install -g angular-cli-ghpages
 ng build --output-path=docs --base-href="/story/"
 
 ngh --dir=docs/browser
+
+
+# Tutorial for deploying
+- https://www.youtube.com/watch?v=_zcwJ_2eL6Y&ab_channel=JayantTripathy
