@@ -109,3 +109,12 @@ export class AppModule {}
     "banglaTrans":"",
     "englishTrans": ""
 }
+
+
+# Bulid production
+
+npm install -g angular-cli-ghpages
+
+ng build --output-path=docs --base-href="/story/"
+
+ngh --dir=docs/browser
