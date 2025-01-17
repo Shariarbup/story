@@ -5,4 +5,5 @@ import { StoryComponent } from './components/story/story.component';
 export const routes: Routes = [
     {path: '',component: HomeComponent},
     {path: 'story/:id',component: StoryComponent},
+    { path: '**', redirectTo: '' }
 ];

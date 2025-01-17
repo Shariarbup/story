@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, RouterModule } from '@angular/router';
 import { Story } from '../../models/Story';
-import { ActivatedRoute } from '@angular/router';
 import { StoryService } from '../../services/story.service';
 
 @Component({
   selector: 'app-story',
-  imports: [],
+  standalone: true,
+  imports: [RouterModule],
   templateUrl: './story.component.html',
   styleUrl: './story.component.css'
 })
