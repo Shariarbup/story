@@ -1,5 +1,7 @@
 <div class="container mt-4">
-    <a routerLink="/" routerLinkActive="active" class="text-center" style="cursor: pointer;">Home</a>
+    <div class="d-flex justify-content-center">
+        <a routerLink="/" style="cursor: pointer;" class="text-center">Home</a>
+    </div>
     <h2 class="text-center text-primary">{{ story?.title }}</h2>
     <p><strong>Story ID:</strong> {{ story?.id }}</p>
     <p><strong>Category:</strong> {{ story?.category }}</p>
