@@ -103,7 +103,7 @@ export class AppModule {}
 
 # JSON OBJECT DEMO
 {
-    "id": 1,
+    "id": ,
     "title":"The Ant and the Dove:", 
     "category": "Moral", 
     "banglaTrans":"",

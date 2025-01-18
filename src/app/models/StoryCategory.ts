@@ -1,4 +1,5 @@
 export enum StoryCategory {
+    Adam = 'Adam',
     Moral = 'Moral',
     Short = 'Short',
     Motivational = 'Motivational',
