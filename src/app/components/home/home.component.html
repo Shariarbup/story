@@ -1,5 +1,5 @@
 <div class="container mt-4">
-    <h2 class="text-center text-primary">Story Categories Developed BY <a href="https://shariarbup.github.io/al-shariar/" target="_blank">SHARIAR</a></h2>
+    <h2 class="text-center text-primary">English Story Developed by- <a href="https://shariarbup.github.io/al-shariar/" target="_blank">SHARIAR.DEV</a></h2>
   
     <!-- Loading Spinner -->
     <div *ngIf="loading" class="text-center mt-4">
@@ -40,7 +40,7 @@
           >
             <div class="accordion-body">
                 <ul *ngIf="storiesByCategory[category]?.length; else noStories">
-                    <li *ngFor="let story of storiesByCategory[category]">
+                    <li *ngFor="let story of storiesByCategory[category]" class="story-title">
                       <a (click)="onStoryClick(story)" class="text-decoration-none text-success">
                         {{ story.title }}
                       </a>
